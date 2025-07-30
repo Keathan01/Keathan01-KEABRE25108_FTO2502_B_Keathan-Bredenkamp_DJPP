@@ -1,3 +1,12 @@
+// src/App.js
+
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import ShowDetail from "./pages/ShowDetail";
+import FavoritesPage from "./pages/FavoritesPage";
+import GlobalAudioPlayer from "./components/GlobalAudioPlayer";
+import SettingsMenu from "./components/SettingsMenu";
 import "./index.css";
 
 export default function App() {
