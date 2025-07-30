@@ -10,15 +10,15 @@ Your goal is to build a polished, production-ready React application that offers
 
 > **Tip:** You are encouraged to explore the React ecosystem to help implement features efficiently.
 
-
 ## How To Set Up App
+
 - clone repo : https://github.com/Keathan01/Keathan01-KEABRE25108_FTO2502_B_Keathan-Bredenkamp_DJPP.git
 - Run npm install
-- Run npm start 
-- Enjoy🥳 
+- Run npm start
+- Enjoy🥳
 - Or deploy with Vercel Link : keathan01-keabre-25108-fto-2502-b-k.vercel.app
 
-## 🎯 Objectives
+## 🎯 Objectives 
 
 - Implement a global audio player with full playback control
 - Add support for favouriting episodes with persistent storage
