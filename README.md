@@ -16,6 +16,7 @@ Your goal is to build a polished, production-ready React application that offers
 - Run npm install
 - Run npm start 
 - Enjoy🥳 
+- Or deploy with Vercel Link : keathan01-keabre-25108-fto-2502-b-k.vercel.app
 
 ## 🎯 Objectives
 
