@@ -3,19 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>🎙️Podcast App</title>
+    <meta name="description" content="Discover and listen to your favorite podcasts in one place.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:url" content="https://keathan01-keabre-25108-fto-2502-b-k.vercel.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="🎙️Podcast App" />
+    <meta property="og:description" content="Discover and listen to your favorite podcasts in one place." />
+    <meta property="og:image" content="https://keathan01-keabre-25108-fto-2502-b-k.vercel.app/preview.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="🎙️Podcast App" />
+    <meta name="twitter:description" content="Discover and listen to your favorite podcasts in one place." />
+    <meta name="twitter:image" content="https://keathan01-keabre-25108-fto-2502-b-k.vercel.app/preview.jpg" />
   </head>
+
   <body>
     <div id="root"></div>
-    <script>
-  (function () {
-    const theme = localStorage.getItem("theme");
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    }
-  })();
-</script>
 
+    <script>
+      (function () {
+        const theme = localStorage.getItem("theme");
+        if (theme === "dark") {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
   </body>
 </html>
+
