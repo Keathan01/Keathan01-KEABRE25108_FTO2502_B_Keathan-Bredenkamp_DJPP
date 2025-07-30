@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 🎧 DJS Portfolio Piece – Podcast App (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 Overview
 
-## Available Scripts
+In this final phase, you will enhance the podcast app you've been building throughout the DJS course. The app already includes a landing page with searchable, sortable, and filterable podcast previews, as well as a show detail page with season toggling.
 
-In the project directory, you can run:
+This project introduces key new features including global audio playback, favouriting episodes, deployment best practices, UI enhancements, and optional listening progress tracking.
 
-### `npm start`
+Your goal is to build a polished, production-ready React application that offers an engaging and seamless user experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> **Tip:** You are encouraged to explore the React ecosystem to help implement features efficiently.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## How To Set Up App
+- clone repo : https://github.com/Keathan01/Keathan01-KEABRE25108_FTO2502_B_Keathan-Bredenkamp_DJPP.git
+- Run npm install
+- Run npm start 
+- Enjoy🥳 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 Objectives
 
-### `npm run build`
+- Implement a global audio player with full playback control
+- Add support for favouriting episodes with persistent storage
+- Introduce a recommended shows carousel on the landing page
+- Support theme toggling (light/dark mode)
+- Ensure robust routing and deploy the app with professional polish
+- Optionally track listening progress across episodes and sessions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Core Features & User Stories
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🛠️ Setup and Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Deploy your app to **Vercel** using a **custom domain or URL**
+- Add a **custom favicon** for easy identification in browser tabs
+- Use tools like [metatags.io](https://metatags.io) to set **rich social media preview metadata**
+- Ensure that direct access to dynamic routes (e.g. `/show/1`) works correctly (SPA routing fallback)
 
-### `npm run eject`
+### 🔊 Global Audio Player
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Play audio using the provided **placeholder API**
+- Keep the player **fixed at the bottom** of the screen across all pages
+- Ensure **uninterrupted playback** when navigating between pages
+- Provide **play, pause, seek, and progress tracking**
+- Add a **confirmation prompt** on page reloads during playback
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ❤️ Favourites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Allow users to **favourite or unfavourite episodes** via a button/icon
+- Use **localStorage** to persist favourites across sessions
+- Provide **visual feedback** for favourited items (e.g., filled heart)
+- Create a **favourites page** displaying all saved episodes
+- Display **associated show and season** for each favourite
+- Show the **date/time added** to favourites
+- **Group favourites by show title**
+- Add **sorting options**:
+  - A–Z / Z–A by title
+  - Newest / Oldest by date added
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🎠 Recommended Shows Carousel
 
-## Learn More
+- Add a **horizontally scrollable carousel** to the landing page
+- Show each show’s **image, title, and genre tags**
+- Support **looping** and navigation via **swipe or arrows**
+- Clicking a carousel item should navigate to the **show’s detail page**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🌗 Theme Toggle
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Include a **toggle** for switching between light and dark mode
+- **Persist theme selection** using `localStorage`
+- Ensure the **entire app UI updates smoothly**
+- Use **appropriate icons** (e.g., sun/moon) to indicate current theme
+- Reflect selected theme across all views and components
 
-### Code Splitting
+## 🌟 Stretch Goal – Listening Progress (Optional)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Save playback position per episode and **resume playback**
+- Mark episodes as **"finished"** once fully played
+- Display **progress indicators** for episodes in progress
+- Allow users to **reset listening history**
+- Save listening history in local storage
 
-### Analyzing the Bundle Size
+## ✅ Deliverables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- A fully functional and deployed podcast app
+- Source code in **GitHub** with clear commit history
+- Live demo link (**Vercel**)
+- (Optional) Short demo video
 
-### Making a Progressive Web App
+## 💡 Tips
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Prioritise **user experience** and **clean component structure**
+- Use **React best practices** (components, hooks, state management)
+- Ensure the app is **responsive** and **mobile-friendly**
+- Test localStorage and audio persistence thoroughly
+- Make use of the **React ecosystem** to accelerate development!
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🧑‍⚖️ Panel Review
 
-### Deployment
+After submitting your project, you will be required to present your work to a coach or panel of coaches.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+During this session, you must:
 
-### `npm run build` fails to minify
+- **Demonstrate** all the features you have implemented in your application.
+- **Explain** how each feature was built, referring directly to your code (e.g., components, state, hooks, storage).
+- Discuss the **decisions** you made during development (e.g., choice of libraries, structure, naming conventions).
+- Break down the **logic** behind key functionalities (e.g., how audio persistence or favouriting works).
+- Be prepared to answer **questions** from the coaches about your project, code structure, and implementation choices.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is your opportunity to showcase both your technical and problem-solving skills—treat it like a real-world project revsiew.
